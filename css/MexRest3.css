@@ -1,0 +1,330 @@
+/*! Adapted Agency Bootstrap Theme for nav bar:
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+body {
+    overflow-x: hidden;
+    font-family: "Special Elite" "Noto Serif", serif "Open Sans", sans-serif;
+}
+
+/*nav bar CSS*/
+.navbar-default {
+    border-color: transparent;
+    background-color: #000000;
+    word-spacing: 6;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Special Elite", serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #FF3300;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    font-family: "Special Elite", serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    float: right;
+    background color: #000000;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #FF3300;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FF0000;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #CC0000;
+}
+.navbar .navbar-default .navbar-fixed-top {
+    font-family: "Special Elite", serif;
+    font-size: 25px;
+}
+/*rest of body custom CSS*/
+#menu {
+    background-color: #E1E1E1;
+}
+
+#menu h3 {
+    font-family: "Noto Serif", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#menu h4 {
+    font-family: "Special Elite", serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#menu p {
+    font-size: 18px;
+    line-height: 1.75;
+    font-family: "Open Sans", sans-serif;
+}
+
+#location .container-fluid {
+    background: url("../images/bg.jpg");
+}
+
+#location .heading {
+    font-family: "Noto Serif", serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+
+#location .hours {
+    font-family: "Special Elite", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #FFFFFF;
+}
+
+.map {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about .container-fluid {
+    background: url("../images/blanket.jpg");  
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#about h3 {
+    text-align: left;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#about p {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+/*video player css*/
+#container {
+    position: relative;
+}
+
+#container div, #container video {
+    top: 0;
+    left: 0;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#container .content {
+    position: absolute;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#container .content .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Special Elite", serif;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#container .content .intro-heading {
+    margin-bottom: 25px;
+    font-family: "Special Elite", serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+
+@media(max-width:768px) {
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #006400;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+
+    header {
+        text-align: center;
+        color: #FFFFFF;
+        background-attachment: scroll;
+        background-image: url(../images/bg.jpg);
+        background-position: center center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        font-family: "Special Elite", serif;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    header .intro-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 10px;
+        font-family: "Special Elite", serif;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 10px;
+        font-family: "Special Elite", serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Special Elite", serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.map {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: none;
+}
+
+.map iframe {
+    width: 380px;
+    height: 425px;
+}
+
+
+.video {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+h3 {
+    color: "white";
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    font-family: "Special-Elite", serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+    font-family: "Special-Elite", serif;
+}
+
+h2 {
+    color: #FFFFFF;
+    z-index: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    font-family: "Special-Elite", serif;
+}
+
+}
